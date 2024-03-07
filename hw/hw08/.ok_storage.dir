@@ -1,0 +1,4 @@
+'derive-sum-correct', (0, 66)
+'derive-product-correct', (512, 66)
+'quasiquote-correct', (1024, 66)
+'eval-calls-correct', (1536, 66)
