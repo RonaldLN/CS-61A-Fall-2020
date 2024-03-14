@@ -4,7 +4,7 @@
 
 ### 1
 
-![cs61a_80](./images/cs61a_80.png){ loading=lazy }
+![cs61a_80](../images/cs61a_80.png){ loading=lazy }
 
 关于 class 和 object 之间的关系的形容
 
@@ -17,7 +17,7 @@
 
 ### 2
 
-![cs61a_81](./images/cs61a_81.png){ loading=lazy }
+![cs61a_81](../images/cs61a_81.png){ loading=lazy }
 
 类内的方法在编写是，第一个参数须是 `self` ，
 
@@ -25,7 +25,7 @@
 
 ### 3
 
-![cs61a_82](./images/cs61a_82.png){ loading=lazy }
+![cs61a_82](../images/cs61a_82.png){ loading=lazy }
 
 python有内置函数可以查询/访问类的实例的*属性(attribute)*，或者是类的属性 (**<mark>类内的方法算作是类本身的属性，而不是具体实例的属性</mark>**)
 
@@ -37,13 +37,13 @@ python有内置函数可以查询/访问类的实例的*属性(attribute)*，或
 
 ### 4
 
-![cs61a_83](./images/cs61a_83.png){ loading=lazy }
+![cs61a_83](../images/cs61a_83.png){ loading=lazy }
 
 如上图，`类名.方法名` 是一个函数，并且 `self` 参数需要传入东西，而 `对象.方法名` 是一个方法，`self` 不用传
 
 ### 5
 
-![cs61a_84](./images/cs61a_84.png){ loading=lazy }
+![cs61a_84](../images/cs61a_84.png){ loading=lazy }
 
 **类属性**
 
@@ -122,7 +122,7 @@ AttributeError: interest
 
 ### 2
 
-![cs61a_85](./images/cs61a_85.png){ loading=lazy }
+![cs61a_85](../images/cs61a_85.png){ loading=lazy }
 
 `del` 也可以删除列表中的元素，
 
