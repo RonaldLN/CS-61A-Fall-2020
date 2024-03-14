@@ -36,23 +36,52 @@ export default withMermaid(
 
       nav: [
         { text: '首页', link: '/' },
+        { text: '课程表目录', link: '/table_of_content' },
         {
-          text: '目录',
+          text: '章节',
           items: [
-            { text: '标题链接', link: '/table_of_content' },
-            { text: 'Part 1', link: '/CS61A_part1' },
-            { text: 'Part 2', link: '/CS61A_part2' },
-            { text: 'Part 3', link: '/CS61A_part1' }
+            { text: 'Part 1', link: '/part1/lab00-lec3qa' },
+            { text: 'Part 2', link: '/part2/hw02-lec11qa' },
+            { text: 'Part 3', link: '/part3/lec26-hw06' }
           ]
         }
       ],
 
       sidebar: [
         {
-          text: 'Examples',
+          text: 'Part 1 (to Midterm 1)',
           items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: 'Lab 00 - Lecture 3 Q&A', link: '/part1/lab00-lec3qa' },
+            { text: 'Lecture 4 - Lecture 7 Q&A', link: '/part1/lec4-lec7qa' }
+          ]
+        },
+        {
+          text: 'Part 2 (to Midterm 2)',
+          items: [
+            { text: 'HW 02 - Lecture 11 Q&A', link: '/part2/hw02-lec11qa' },
+            { text: 'Project Cats - Lab 05', link: '/part2/cats-lab05' },
+            { text: 'Lecture 13 Q&A - Lecture 15 Q&A', link: '/part2/lec13qa-lec15qa' },
+            { text: 'HW 03 - Lab 06', link: '/part2/hw03-lab06' },
+            { text: 'Lecture 17 - Lecture 17 Q&A', link: '/part2/lec17-lec17qa' },
+            { text: 'Lecture 18 - HW 04', link: '/part2/lec18-hw04' },
+            { text: 'Lecture 19 - Lecture 19 Q&A', link: '/part2/lec19-lec19qa' },
+            { text: 'Lab 07 - Project Ants', link: '/part2/lab07-ants' },
+            { text: 'Lecture 20 - HW 05', link: '/part2/lec20-hw05' },
+            { text: 'Lecture 22 - Lecture 23 Q&A', link: '/part2/lec22-lec23qa' },
+            { text: 'Lecture 24 - Lab 09', link: '/part2/lec24-lab09' },
+            { text: 'Lecture 25 - Lecture 25 Q&A', link: '/part2/lec25-lec25qa' }
+          ]
+        },
+        {
+          text: 'Part 3 (to Final)',
+          items: [
+            { text: 'Lecture 26 - HW 06', link: '/part3/lec26-hw06' },
+            { text: 'Lecture 28 - Lab 11', link: '/part3/lec28-lab11' },
+            { text: 'Project Scheme', link: '/part3/scheme' },
+            { text: 'Lecture 31 - Lab 12', link: '/part3/lec31-lab12' },
+            { text: 'Lecture 33 - HW 09', link: '/part3/lec33-hw09' },
+            { text: 'Lecture 35 - Lab 14', link: '/part3/lec35-lab14' },
+            { text: 'Lecture 37 - Lecture 38', link: '/part3/lec37-lec38' }
           ]
         }
       ],
